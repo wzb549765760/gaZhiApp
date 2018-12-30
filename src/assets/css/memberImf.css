@@ -1,0 +1,527 @@
+.memberImf {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	background: white;
+}
+
+.memberImf .imfTop {
+	width: 100%;
+	overflow: hidden;
+	height: 40%;
+	background: url(../img/imgTopBack.png) no-repeat center;
+	background-size: cover;
+	padding: 0 20px;
+	box-sizing: border-box;
+	transition: height 1s;
+	-moz-transition: height 1s;
+	/* Firefox */
+	-webkit-transition: height 1s;
+	/* Safari and Chrome */
+	-o-transition: height 1s;
+	/* Opera */
+}
+
+.memberImf .imfTop .setTop {
+	width: 100%;
+	height: 15%;
+}
+
+.imfMain .loginOut {
+	width: 100%;
+	height: 30px;
+	margin-top: 60px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	color: #CCCCCC;
+	text-align: center;
+	line-height: 30px;
+}
+
+.memberImf .imfTop .setTop .rollBack {
+	width: 20px;
+	height: 100%;
+	float: left;
+	background: url(../img/rollBack.png) no-repeat bottom;
+}
+
+.memberImf .contactsImfTop {
+	width: 100%;
+	height: 34%;
+	background: url(../img/contactsDetailTopBack.png) no-repeat center;
+	background-size: cover;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.memberImf .contactsImfTop .setTop {
+	width: 100%;
+	height: 20%;
+}
+
+.memberImf .contactsImfTop .setTop .rollBack {
+	width: 20px;
+	height: 100%;
+	float: left;
+	background: url(../img/rollBack.png) no-repeat bottom;
+}
+
+.memberImf .imfDeatil {
+	width: 100%;
+	height: 45%;
+}
+
+.memberImf .imfDeatil .realyName span {
+	display: inline-block;
+	height: 0px;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	align-items: center;
+	transition: height 2s;
+	-moz-transition: height 2s;
+	/* Firefox */
+	-webkit-transition: height 2s;
+	/* Safari and Chrome */
+	-o-transition: height 2s;
+	/* Opera */
+}
+
+.memberImf .imfDeatil .realyName {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: height 2s;
+	-moz-transition: height 2s;
+	/* Firefox */
+	-webkit-transition: height 2s;
+	/* Safari and Chrome */
+	-o-transition: height 2s;
+	/* Opera */
+}
+
+.memberImf .imfDeatil .realyDepartment {
+	width: 100%;
+	height: 40%;
+	text-align: center;
+}
+
+.memberImf .imfDeatil .realyDepartment span {
+	width: auto;
+	padding: 05px;
+	box-sizing: content-box;
+	min-width: 30%;
+	display: inline-block;
+	background-color: rgba(242, 242, 242, 0.498039215686275);
+	border-radius: 20px;
+	height: 25px;
+	line-height: 25px;
+	max-width: 45%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: white;
+	overflow: hidden;
+	transition: height 1s;
+	-moz-transition: height 1s;
+	/* Firefox */
+	-webkit-transition: height 1s;
+	/* Safari and Chrome */
+	-o-transition: height 1s;
+	/* Opera */
+}
+.memberImf .imfDeatil .realyDepartment span:first-child{
+	margin-right: 5px;
+}
+
+.memberImf .imfTop .setTop .setButtom {
+	width: 20px;
+	height: 100%;
+	float: right;
+	background: url(../img/imfSet.png) no-repeat bottom;
+}
+
+.memberImf .imfTop .headLogo {
+	width: auto;
+	height: 30%;
+	margin: auto auto;
+	transition: height 2s;
+	-moz-transition: height 2s;
+	/* Firefox */
+	-webkit-transition: height 2s;
+	/* Safari and Chrome */
+	-o-transition: height 2s;
+	/* Opera */
+}
+
+.memberImf .imfTop .headLogo img {
+	margin: auto auto;
+	height: 100%;
+	border-radius: 100%;
+	display: block;
+}
+
+.memberImf .contactsImfTop .setTop .setButtom {
+	width: 20px;
+	height: 100%;
+	float: right;
+	background: url(../img/imfSet.png) no-repeat bottom;
+}
+
+.memberImf .contactsImfTop .headLogo {
+	width: auto;
+	height: 35%;
+	margin: auto auto;
+}
+
+.memberImf .contactsImfTop .headLogo img {
+	margin: auto auto;
+	height: 100%;
+	border-radius: 100%;
+	display: block;
+}
+
+.memberImf .imfMain {
+	width: 100%;
+	height: 60%;
+	overflow: auto;
+	transition: height 2s;
+	-moz-transition: height 2s;
+	/* Firefox */
+	-webkit-transition: height 2s;
+	/* Safari and Chrome */
+	-o-transition: height 2s;
+	/* Opera */
+}
+
+.memberImf .imfMain .companyName {
+	width: 100%;
+	height: 80px;
+	padding: 25px 0 25px 100px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 18px;
+	color: #333333;
+}
+
+.memberImf .imfMain .companyName.detailCompanyName {
+	background: url(../img/detaiCompanyLogo.png) no-repeat left;
+	background-size: 30px;
+	background-position-x: 50px;
+	background-position-y: 25px;
+	margin-bottom: 10px;
+}
+
+.memberImf .imfMain .otherName {
+	width: 100%;
+	height: 40px;
+	padding: 11px 40px 11px 100px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 14px;
+	color: #666666;
+}
+
+.memberImf .imfMain .otherName.detailMibile {
+	background: url(../img/detailMobile.png) no-repeat left;
+	background-size: 16px;
+	background-position-x: 55px;
+}
+
+.memberImf .imfMain .otherName.detailContactsNum {
+	background: url(../img/detailContactsNum.png) no-repeat left;
+	background-size: 16px;
+	background-position-x: 55px;
+}
+
+.memberImf .imfMain .otherName.detailTime {
+	background: url(../img/detailTime.png) no-repeat left;
+	background-size: 16px;
+	background-position-x: 55px;
+}
+
+.memberImf .imfMain .otherName.detailType {
+	background: url(../img/detailType.png) no-repeat left;
+	background-size: 16px;
+	background-position-x: 55px;
+}
+
+.memberImf .imfMain .otherName.detailReason {
+	background: url(../img/detailReason.png) no-repeat left;
+	background-size: 16px;
+	background-position-x: 55px;
+}
+
+.memberImf .imfMain .otherName.detailEmail {
+	background: url(../img/detailEmail.png) no-repeat left;
+	background-size: 16px;
+	background-position-x: 55px;
+}
+
+.memberImf .imfMain .otherName.detailAddress {
+	background: url(../img/detailAddress.png) no-repeat left;
+	background-size: 16px;
+	background-position-x: 55px;
+	padding-top: 10px;
+}
+
+.memberImf .imfMain .otherName.detailAddress span {
+	display: inline-block;
+	line-height: 18px;
+}
+
+.memberImf .imfMain .otherName.detailWebsite {
+	background: url(../img/detailWebsite.png) no-repeat left;
+	background-size: 16px;
+	background-position-x: 55px;
+}
+
+.companyLogoBottom {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	z-index: 1;
+}
+
+.companyLogoBottom span {
+	width: auto;
+	padding-left: 25px;
+	background: url(../img/companyLogoH.png) no-repeat left;
+	height: 25px;
+	background-size: contain;
+	font-size: 12px;
+	color: #666666;
+}
+
+.memberImf .imfMain .otherNameSet {
+	width: 100%;
+	height: 40px;
+	padding: 0 20px 0 90px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 14px;
+	color: #666666;
+	margin-top: 10px;
+	display: flex;
+}
+
+.memberImf .imfMain .otherNameSet.detailMibile {
+	background: url(../img/detailMobile.png) no-repeat left;
+	background-size: 18px;
+	background-position-x: 55px;
+}
+
+.memberImf .imfMain .otherNameSet.detailPwd {
+	background: url(../img/setPwd.png) no-repeat left;
+	background-size: 18px;
+	background-position-x: 55px;
+}
+
+.memberImf .imfMain .otherNameSet.detailMessage {
+	background: url(../img/setMessage.png) no-repeat left;
+	background-size: 18px;
+	background-position-x: 55px;
+}
+
+.memberImf .imfMain .otherNameSet.detailAutoAddBody {
+	background: url(../img/autoAddBody.png) no-repeat left;
+	background-size: 18px;
+	background-position-x: 55px;
+}
+
+.memberImf .imfMain .otherNameSet .setValue {
+	flex: 1;
+	height: 40px;
+	padding: 10px 0;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #666666;
+}
+
+.memberImf .imfMain .otherNameSet .intoLink {
+	width: 40px;
+	height: 40px;
+	background: url(../img/intoLink.png) no-repeat center;
+	float: right;
+}
+
+.memberImf .imfMain .otherNameSet .closeOrOpen {
+	width: 40px;
+	height: 20px;
+	margin-top: 10px;
+	position: relative;
+	border: 1px solid #E5E5E5;
+	/*border-radius: 10px;*/
+	background-color: rgb(242, 242, 242);
+	overflow: hidden;
+	border-top-left-radius: 10px;
+	/* 左上角 */
+	border-top-right-radius: 10px;
+	/* 右上角 */
+	border-bottom-right-radius: 10px;
+	/* 右下角 */
+	border-bottom-left-radius: 10px;
+	/* 左下角 */
+}
+
+.memberImf .imfMain .otherNameSet .closeOrOpen .buttomSlid {
+	position: absolute;
+	width: 40px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+	background-color: #94CEA8;
+	transition: left 1s;
+	-moz-transition: left 0.5s;
+	/* Firefox */
+	-webkit-transition: left 0.5s;
+	/* Safari and Chrome */
+	-o-transition: left 0.5s;
+	left: -20px;
+	/*border-radius: 10px;*/
+	border-top-left-radius: 10px;
+	/* 左上角 */
+	border-top-right-radius: 10px;
+	/* 右上角 */
+	border-bottom-right-radius: 10px;
+	/* 右下角 */
+	border-bottom-left-radius: 10px;
+	/* 左下角 */
+}
+
+.memberImf .imfMain .otherNameSet .closeOrOpen .buttomSlid .bottomMain {
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: 1px solid rgb(242, 242, 242);
+	background-color: white;
+}
+
+.detailOperation {
+	width: 100%;
+	height: 70px;
+	padding: 0 20px 20px 0;
+	box-sizing: border-box;
+	margin-top: 40px;
+}
+
+.detailOperation .opetationList {
+	height: 50px;
+	width: 50px;
+	float: right;
+	border-radius: 50px;
+	margin-left: 40px;
+}
+
+.detailOperation .opetationList.mobileOperation {
+	background: url(../img/operationMobile.png) no-repeat center;
+	background-color: #E4E8FB;
+}
+
+.detailOperation .opetationList.agreeOperation {
+	background: url(../img/operationAgree.png) no-repeat center;
+	background-color: #E7F2EB;
+}
+
+.detailOperation .opetationList.removeOperation {
+	background: url(../img/operationRemove.png) no-repeat center;
+	background-color: #F7D8D5;
+}
+
+.detailOperation .opetationList.addContancts {
+	background: url(../img/addContancts.png) no-repeat center;
+	background-color: #f3e8fc;
+}
+
+.detailOperation .opetationList.delContancts {
+	background: url(../img/delContancts.png) no-repeat center;
+	background-color: #f7d8d5;
+}
+
+.detailOperation .opetationList.overVisit {
+	background: url(../img/overVisit.png) no-repeat center;
+	background-color: #f2f2f2;
+}
+
+.detailOperation .opetationList.delete {
+	background: url(../img/delete.png) no-repeat center;
+	background-color: #f2f2f2;
+}
+
+
+/*操作框代码*/
+
+.operationBomb {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+	display: none;
+	opacity: 0;
+	transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	/* Firefox */
+	-webkit-transition: opacity 0.5s;
+	/* Safari and Chrome */
+	-o-transition: opacity 0.5s;
+}
+
+.operationBomb .operationMain {
+	width: 100%;
+	height: 140px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: -140px;
+	transition: bottom 0.5s;
+	-moz-transition: bottom 0.5s;
+	/* Firefox */
+	-webkit-transition: bottom 0.5s;
+	/* Safari and Chrome */
+	-o-transition: bottom 0.5s;
+}
+
+.operationBomb .operationMain .operationButtom {
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	color: #869DF8;
+	text-align: center;
+	line-height: 50px;
+}
+
+.operationBomb .operationMain .operationButtom:first-child {
+	margin-bottom: 15px;
+}
+
+.operationBomb .operationMain .operationButtom a {
+	text-decoration: none;
+	color: #869DF8;
+}
+
+.operationBomb .operationMain .operationButtom span {
+	color: rgba(231, 76, 60, 0.498039215686275);
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}

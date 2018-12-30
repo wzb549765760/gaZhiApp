@@ -1,0 +1,391 @@
+.contactsListTop {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.contactsListTop .rollBack {
+	width: 40px;
+	height: 100%;
+	float: left;
+	background: url(../img/rollBacHui.png) no-repeat left;
+}
+
+.contactsListTop .searchMain {
+	height: 100%;
+	flex: 1;
+	padding: 17px 0;
+	box-sizing: border-box;
+	font-size: 18px;
+	color: #000000;
+}
+
+.contactsListTop .intoAttendanceStatistics{
+	width: 40px;
+    height: 100%;
+    float: right;
+    background: url(../img/intoAttendanceStatistics.png) no-repeat right;
+}
+
+.contactsListTop .intoAttendanceTime{
+	width: 40px;
+    height: 100%;
+    float: right;
+    background: url(../img/intoAttendanceTime.png) no-repeat right;
+}
+
+.cardAttendanceMain{
+	width: 100%;
+	height: auto;
+}
+
+.cardAttendanceMain .cardAttendanceTop{
+	width: 100%;
+	height: 40px;
+	padding: 20px 0;
+	display: flex;
+}
+
+.cardAttendanceMain .cardAttendanceTop .head{
+	width: 40px;
+	height: 40px;
+	float: left;
+	border-radius: 40px;
+}
+
+.cardAttendanceMain .cardAttendanceTop .content{
+	height: 40px;
+	flex: 1;
+	padding-left: 25px;
+	box-sizing: border-box;
+}
+
+
+.cardAttendanceMain .cardAttendanceTop .content .name{
+	width:100%;
+	height: 20px;
+	text-align: left;
+	line-height: 20px;
+    font-size: 14px;
+    color: #000000;
+}
+
+
+.cardAttendanceMain .cardAttendanceTop .content .attendanceUnit{
+	width:100%;
+	height: 20px;
+	text-align: left;
+	line-height: 20px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.cardAttendanceRecode{
+	width: 100%;
+	height:  240px;
+}
+
+.cardAttendanceRecode .tittle{
+	width: 100%;
+	height: 20px;
+    font-size: 12px;
+    color: #999999;
+    padding-right: 20px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.cardAttendanceRecode .recodeMain{
+	width: 100%;
+	height: 220px;
+	overflow-x: scroll;
+}
+
+.cardAttendanceRecode .recodeMain .recode{
+	width: 300%;
+	height: 100%;
+}
+
+.getRecodeByMonth{
+	width: 100%;
+	height: auto;
+}
+
+.getRecodeByMonth .changtTime{
+	width: 100%;
+	height: 60px;
+	display: flex;
+}
+
+.getRecodeByMonth .changtTime .left{
+	width: 40px;
+	height: 100%;
+	float: left;
+	background: url(../img/leftClick.png) no-repeat left;
+}
+
+.getRecodeByMonth .changtTime .content{
+	height: 60px;
+	flex: 1;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    line-height: 60px;
+}
+
+.getRecodeByMonth .changtTime .right{
+	width: 40px;
+	height: 100%;
+	float: right;
+	background: url(../img/rightClick.png) no-repeat right;
+}
+
+.recodeDetail{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+.recodeDetail .main{
+	width: 100%;
+	height: 30px;
+    font-size: 12px;
+    color: #000000;
+    line-height: 30px;
+}
+
+.recodeDetail .main .name{
+	float: left;
+}
+
+.recodeDetail .main .value{
+	float: right;
+}
+
+.recodeDetail .averageTimeOfWork{
+	width: 100%;
+	height: 20px;
+	margin-top: 40px;
+    font-size: 10px;
+    color: #999999;
+    text-align: center;
+}
+
+.cardAttendanceMain .cardAttendanceTop .detailTime{
+	width: auto;
+	height: 40px;
+	float: right;
+    font-size: 14px;
+    color: #999999;
+    position: relative;
+    line-height: 40px;
+}
+
+.cardAttendanceMain .cardAttendanceTop .detailTime span{
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	right: 20px;
+}
+
+.cardAttendanceMain .cardAttendanceTop .detailTime.logo{
+	padding-right: 20px;
+	background: url(../img/changeSomething.png) no-repeat right;
+    background-size: 12px;
+}
+
+.cardAttendanceMain .dateMain{
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+
+.cardAttendanceMain .dateMain .tittle{
+	width: 100%;
+	height: 40px;
+	display: flex;
+}
+
+.cardAttendanceMain .dateMain .tittle span{
+	flex: 1;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+    font-size: 12px;
+    color: #000000;
+    display: inline-block;
+}
+
+.cardAttendanceMain .dateMain .dataByWeek{
+	width: 100%;
+	height: 40px;
+	display: flex;
+}
+
+.cardAttendanceMain .dateMain .dataByWeek .weekOfDay{
+	flex: 1;
+	height: 40px;
+}
+
+.cardAttendanceMain .dateMain .dataByWeek .weekOfDay .day{
+	width: 100%;
+	height: 39px;
+	line-height: 39px;
+    font-size: 12px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+}
+
+.cardAttendanceMain .dateMain .dataByWeek .weekOfDay .day span{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 30px;
+	line-height: 30px;
+}
+
+.cardAttendanceMain .dateMain .dataByWeek .weekOfDay .day.nomal{
+	background: url(../img/kaoqinNomal.png) no-repeat bottom;
+}
+
+.cardAttendanceMain .dateMain .dataByWeek .weekOfDay .day.queqin{
+	background: url(../img/kaoqinqueqin.png) no-repeat bottom;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain .commuterRecord{
+	width: 100%;
+	height: 20px;
+	border-left: 0px solid #E5E5E5;
+	padding-left: 15px;
+	box-sizing: border-box;
+	position: relative;
+	transition: height 1s;
+	-moz-transition: height 1s;
+	/* Firefox */
+	-webkit-transition: height 1s;
+	/* Safari and Chrome */
+	-o-transition: height 1s;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain .commuterRecord:last-child{
+	border-left: 0px;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain .commuterRecord .contents{
+	width: 100%;
+	height: 0px;
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 8px;
+    line-height: 20px;
+    overflow: hidden;
+	transition: height 1s;
+	-moz-transition: height 1s;
+	/* Firefox */
+	-webkit-transition: height 1s;
+	/* Safari and Chrome */
+	-o-transition: height 1s;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain .commuterRecord .contents:first-child{
+	height: 20px;
+	overflow: initial;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain .commuterRecord .contents .nomal{
+	width: 26px;
+	height: 20px;
+	text-align: center;
+    font-size: 10px;
+    color: #94CEA8;
+    background-color: rgba(148, 206, 168, 0.247058823529412);
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain .commuterRecord .contents .early{
+	width: 26px;
+	height: 20px;
+	text-align: center;
+    font-size: 10px;
+    color: #E74C3C;
+    background-color: rgba(231, 76, 60, 0.247058823529412);
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain .commuterRecord .contents.address{
+	padding-left: 20px;
+	background: url(../img/commuterRecordAddress.png) no-repeat left;
+	box-sizing: border-box;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain .commuterRecord i{
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	background-color: #94CEA8;
+	position: absolute;
+	top: 0px;
+	left: -5px;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain .commuterRecordNum{
+	height: 30px;
+	width: 100%;
+	margin-bottom: 10px;
+    font-size: 14px;
+    color: #999999;
+    text-indent:15px;
+    line-height: 30px;
+    position: relative;
+}
+
+.cardAttendanceMain .AttendanceStatisticsMain .commuterRecordNum i{
+	background: url(../img/commuterRecordNum.png) no-repeat  left;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: -5px;
+	top: 8px;
+}
+
+.workType{
+	width: 100%;
+	height: auto;
+}
+
+.workType .goToWork{
+	width: 120px;
+	height: 120px;
+	margin: 40px auto;
+	background: url(../img/dakashangban.png);
+	background-size: cover;
+	text-align: center;
+	line-height: 120px;
+    color: #333333;
+    font-size: 16px;
+}
+
+.workType .ouTWork{
+	width: 120px;
+	height: 120px;
+	margin: 40px auto;
+	background: url(../img/dakaxiaban.png);
+	background-size: cover;
+	text-align: center;
+	line-height: 120px;
+    color: #333333;
+    font-size: 16px;
+}

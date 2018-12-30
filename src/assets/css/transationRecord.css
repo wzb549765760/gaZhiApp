@@ -1,0 +1,405 @@
+.contactsListTop {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.contactsListTop .rollBack {
+	width: 40px;
+	height: 100%;
+	float: left;
+	background: url(../img/rollBacHui.png) no-repeat left;
+}
+
+.contactsListTop .searchMain {
+	height: 100%;
+	flex: 1;
+    padding: 16px 0 16px 0;
+    box-sizing: border-box;
+	font-size: 18px;
+	color: #000000;
+}
+
+.transactionRecodeMain{
+	width: 100%;
+	height: calc(100vh - 62px);
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+.transactionRecodeMain .transactionRecodeChart{
+	width: 100%;
+	height: 40%;
+}
+
+.transactionRecodeMain .transactionRecodeChart .transactionRecodeChartTop{
+	width: 100%;
+	height: 10%;
+}
+
+.transactionRecodeChartTop .changeTime{
+	float: left;
+	width: 68px;
+    font-size: 14px;
+    color: #666666;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background: url(../img/changeSomething.png) no-repeat right;
+    background-size: 12px;
+    position: relative;
+}
+
+.transactionRecodeChartTop .changeTime input{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+}
+
+.transactionRecodeChartTop .changeTime span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	text-align: left;
+	display: flex;
+	align-items: center;
+}
+
+.transactionRecodeChartTop .income{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 40px;
+	float: right;
+    font-size: 14px;
+    color: #CCCCCC;
+    margin-right: 20px;
+}
+
+.transactionRecodeChartTop .expenditure{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 40px;
+	float: right;
+    font-size: 14px;
+    color: #CCCCCC;
+}
+.transactionRecodeChartTop span{
+	width: 100%;
+	text-align: right;
+}
+.transactionRecodeChartTop span.into{
+	border-left: 4px solid #8A8CF0;
+}
+
+.transactionRecodeChartTop span.out{
+	border-left: 4px solid #F2F2F2;
+}
+
+.transactionRecodeMain .transactionRecodeChart .transactionRecodeChartMain{
+	width: 100%;
+	height: 90%;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+
+.transactionRecodeChartMain .recodeChart{
+	width: 100%;
+	height: 85%;
+	display: flex;
+}
+
+.transactionRecodeChartMain .recodeChart .getChartByDay{
+	flex: 1;
+	height: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.transactionRecodeChartMain .recodeChart .getChartByDay .into{
+	background-color: #8A8CF0;
+	width: calc(100% - 6px);
+	height: 00%;
+	border-radius: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.transactionRecodeChartMain .recodeChart .getChartByDay .out{
+	background-color: #F2F2F2;
+	width: calc(100% - 6px);
+	height: 10%;
+	border-radius: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+
+.transactionRecodeChartMain .dataDetail{
+	width: 100%;
+	height: 15%;
+	display: flex;
+}
+
+
+.transactionRecodeChartMain .dataDetail span{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.flex1{
+	flex: 1;
+}
+
+.flex5{
+	flex: 5;
+}
+
+.transactionRecodeMain .transactionLists{
+	width: 100%;
+	height: 60%;
+	overflow: auto;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.transactionRecodeMain .transactionLists .nullList{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #E5E5E5;
+	font-size: 14px;	
+}
+
+.transactionRecodeMain .transactionList{
+	width: 100%;
+	height: 40px;
+	margin-top: 40px;
+	display: flex;
+}
+
+.transactionRecodeMain .transactionList .head{
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	background: url(../img/transactionBack.png) no-repeat center;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+}
+
+.transactionRecodeMain .transactionList .head .headInto{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background: url(../img/transactionLogo.png) no-repeat center;
+    background-size: 20px;
+    vertical-align: middle;
+}
+
+.transactionRecodeMain .transactionList .contentMain{
+	flex: 1;
+	height: 40px;
+	padding-left: 35px;
+	box-sizing: border-box;
+}
+
+.transactionRecodeMain .transactionList .contentMain .address{
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	line-height: 20px;
+    color: #333333;
+    font-size: 14px;
+}
+
+.transactionRecodeMain .transactionList .contentMain .time{
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	line-height: 20px;
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.transactionRecodeMain .transactionList .money{
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+    font-size: 16px;
+    color: #333333;
+}
+
+.transactionDetail{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 100%;
+	left: 0px;
+	transition: top 0.5s;
+	-moz-transition: top 0.5s;
+	/* Firefox */
+	-webkit-transition: top 0.5s;
+	/* Safari and Chrome */
+	-o-transition: top 0.5s;
+	/* Opera */
+	z-index: 100;
+	background-color: white;
+	padding: 40px 30px 20px 30px;
+	box-sizing: border-box;
+}
+
+.transactionDetail .topDetail{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
+
+.transactionDetail .topDetail .address{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background: url(../img/transactionBack.png) no-repeat center;
+	text-align: center;
+	line-height: 30px;
+	display: inline-block;
+	margin-right: 10px
+}
+
+.transactionDetail .topDetail .address .headInto {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: url(../img/transactionLogo.png) no-repeat center;
+    background-size: 15px;
+    vertical-align: middle;
+}
+
+.transactionDetail .moneyMain{
+	width: 100%;
+	height: 40px;
+	margin: 40px 0 20px;
+	display: flex;
+}
+
+.otherMain{
+	width: 100%;
+	height: 40px;
+	display: flex;
+}
+
+.transactionDetail .key{
+	height:40px;
+	width: 60px;
+	line-height: 40px;
+    font-size: 12px;
+    color: #999999;
+    float: left;
+    text-align: left;
+}
+
+.transactionDetail .value{
+	height:100%;
+	flex: 1;
+	text-align: right;
+    font-size: 12px;
+    color: #999999;
+    line-height: 40px;
+}
+
+.transactionDetail .value span{
+	height: 40px;
+	line-height: 0px;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.timeLists{
+	height: 200px;
+	width: 100%;
+	display: flex;
+}
+
+.timeLists .timeList{
+	height: 100%;
+	flex: 1;
+	text-align: center;
+}
+
+.timeLists .timeList img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.welfareMain{
+	width: 100%;
+	height: auto;
+	padding: 0 30px;
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+
+.welfareMain .welfares{
+	width: 100%;
+	height: 80px;
+	padding: 20px 0;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.welfareMain .welfares .headLogo{
+	float: left;
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+
+.welfareMain .welfares .content{
+	height: 40px;
+	flex: 1;
+}
+
+.welfareMain .welfares .money{
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+    font-size: 16px;
+    color: #DBA5FE;
+}
+
+.welfareMain .welfares .content .key{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 40px;
+}
+
+.welfareMain .welfares .content .value{
+    font-size: 12px;
+    color: #CCCCCC;
+    width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 40px;
+}

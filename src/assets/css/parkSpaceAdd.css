@@ -1,0 +1,248 @@
+.contactsListTop {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.contactsListTop .edit{
+	width: 40px;
+    height: 100%;
+    float: right;
+    background: url(../img/contactDel.png) no-repeat right;
+}
+
+.contactsListTop .del{
+	width: 40px;
+    height: 100%;
+    float: right;
+    background: url(../img/contactEdit.png) no-repeat right;
+}
+
+.contactsListTop .rollBack {
+	width: 40px;
+	height: 100%;
+	float: left;
+	background: url(../img/rollBacHui.png) no-repeat left;
+}
+
+.contactsListTop .searchMain {
+	height: 100%;
+	flex: 1;
+	padding: 17px 0;
+	box-sizing: border-box;
+	font-size: 18px;
+	color: #000000;
+}
+
+.contactsLists {
+	width: 100%;
+	height: calc(100vh - 62px);
+	overflow: hidden;
+}
+
+.contactsLists .contactsList{
+	width: 200%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: margin-left 1s;
+	-moz-transition: margin-left 1s;
+	/* Firefox */
+	-webkit-transition: margin-left 1s;
+	/* Safari and Chrome */
+	-o-transition: margin-left 1s;
+}
+
+.contactsLists .addParkingSpaceMain{
+	width: 50%;
+	height: auto;
+	position: relative;
+}
+
+.contactsLists .addParkingSpaceMain .toRight{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	right: 0px;
+	top: 50%;
+	margin-top: -15px;
+	background: url(../img/rollBackInto.png) no-repeat center;
+}
+
+.contactsLists .addParkingSpaceMain .toLeft{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	left: 0px;
+	top: 50%;
+	margin-top: -15px;
+	background: url(../img/rollBacHui.png) no-repeat center;
+}
+
+.contactsLists .addParkingSpaceMain .addParkingSpaceLogo{
+	width: 70%;
+	display: inline-block;
+	height: auto;
+	margin: auto auto;
+}
+
+.contactsLists .addParkingSpaceMain  .addParkingSpaceContent{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+    font-size: 12px;
+    color: #CCCCCC;
+    display: flex;
+    margin-top: 20px;
+}
+
+.contactsLists .addParkingSpaceMain  .addParkingSpaceContent .contentDetails{
+	flex: 1;
+	height: 40px;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+.addParkingSpaceContent .contentDetails span.point{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 46px;
+	color: #333;
+	display: inline-block;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 1);    
+}
+
+.addParkingSpaceContent .contentDetails span.value{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #333;
+	display: inline-block;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 1);    
+}
+
+.addParkingSpaceContent .contentDetails span.nomal{
+    box-shadow: 0px 0px 5px rgba(153, 153, 153, 0.349019607843137);
+}
+
+.addParkingSpaceContent .contentDetails span.focus{
+    box-shadow: 0px 0px 5px rgba(148, 206, 168, 1);
+}
+
+/*键盘*/
+.keyBoard{
+	position: fixed;
+	height: 33%;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(242, 242, 242, 0.498039215686275);
+	padding: 15px 5px;
+	box-sizing: border-box;
+}
+
+.keyBoard .keyBoardLine{
+	width: 100%;
+	height: 25%;
+	display: flex;
+	padding: 3px 0;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.keyBoard .keyBoardSure{
+	width: 100%;
+	height:40px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(209, 214, 218, 1);
+	opacity: 0;
+	transition: top 0.2s;
+	z-index: -1000;
+	-moz-transition: top 0.2s;
+	/* Firefox */
+	-webkit-transition: top 0.2s;
+	/* Safari and Chrome */
+	-o-transition: top 0.2s;
+	transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	/* Firefox */
+	-webkit-transition: opacity 0.2s;
+	/* Safari and Chrome */
+	-o-transition: opacity 0.2s;
+}
+
+.keyBoard .keyBoardSure .sureBottom{
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+    font-size: 14px;
+    color: #FFFFFF;
+    float: right;
+    text-align: center;
+}
+
+.keyBoard .keyBoardLine .keyBoards{
+	display: inline-block;
+	flex: 1;
+	height: 100%;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+.keyBoard .keyBoardLine.padding10{
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.keyBoard .keyBoardLine.padding20{
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.keyBoard .keyBoardLine.padding30{
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.delButtom{
+	position: absolute;
+	height: 100%;
+	width: 13%;
+	top: 0px;
+	right: 5px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background : url(../img/keyboardDel.png) no-repeat center;
+    background-color: rgba(204, 204, 204, 1);
+    background-size: 25px;
+}
+
+.delButtom:active{
+	 background-color: rgba(204, 204, 204, 1);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349019607843137);
+}
+
+.keyBoard .keyBoardLine .keyBoards span{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349019607843137);
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #333333;
+}
+
+.keyBoard .keyBoardLine .keyBoards span:active{
+    background-color: rgba(204, 204, 204, 1);
+}

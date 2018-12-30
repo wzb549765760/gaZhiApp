@@ -1,0 +1,448 @@
+.loginMain {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.loginMain .main {
+	width: 200%;
+	height: 100%;
+	background: url(../img/loginBack.jpg) no-repeat;
+	background-size: cover;
+	background-position-x: 50%;
+	display: flex;
+	transition: margin-left 0.5s;
+	-moz-transition: margin-left 0.5s;
+	/* Firefox */
+	-webkit-transition: margin-left 0.5s;
+	/* Safari and Chrome */
+	-o-transition: margin-left 0.5s;
+}
+
+.loginOrActivationParty {
+	flex: 1;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 26%;
+	position: relative;
+}
+
+.loginOrActivationParty .loginBottom {
+	position: absolute;
+	height: 100%;
+	width: 50px;
+	top: 0px;
+	right: -50px;
+	background-color: rgba(148, 206, 168, 0.898039215686275);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+    z-index: 1;
+}
+
+.activationBottom {
+	position: absolute;
+	height: 100%;
+	width: 50px;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(116, 123, 192, 0.898039215686275);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+    z-index: 1;
+}
+
+.loginOrActivationParty .loginBottom span {
+	transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	/* IE 9 */
+	-moz-transform: rotate(-90deg);
+	/* Firefox */
+	-webkit-transform: rotate(-90deg);
+	/* Safari 和 Chrome */
+	-o-transform: rotate(-90deg);
+	/* Opera */
+    width: 100px;
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+}
+
+.loginOrActivationParty.loginParty {
+	padding-right: 50px;
+	background-color: rgba(148, 206, 168, 0.898039215686275);
+}
+
+.loginPartyMain {
+	height: auto;
+	display: inline-block;
+	width: 100%;
+}
+
+.loginInputMain {
+	width: 100%;
+	height: 100%;
+	padding: 0 15%;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	display: flex;
+}
+
+.inputMain {
+	flex: 1;
+	height: 50px;
+	position: relative;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+
+.inputMain .getCode{
+	width: auto;
+	padding: 0 5px;
+	height: 50px;
+	font-size: 12px;
+	color: #F2F2F2;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	line-height: 50px;
+	z-index: 2;
+}
+
+
+.inputMain .tisi {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.2);
+	z-index: 1;
+	font-size: 12px;
+	color: #F2F2F2;
+	line-height: 4;
+	text-indent: 10px;
+	transition: height,line-height 0.5s;
+	-moz-transition: height,line-height 0.5s;
+	/* Firefox */
+	-webkit-transition: height,line-height 0.5s;
+	/* Safari and Chrome */
+	-o-transition: height,line-height 0.5s;
+	/* Opera */
+}
+
+.loginOtherMain {
+	width: 100%;
+	height: calc(100vh - 130px - 50%);
+	box-sizing: border-box;
+}
+
+.activationOtherMain{
+	width: 100%;
+	height: calc(100vh - 260px - 60%);
+	box-sizing: border-box;
+}
+
+.loginAndOther {
+	width: 100%;
+	height: 100%;
+}
+
+.activationOtherMain .activationInto{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 28px;
+	color: #F2F2F2;
+	text-align: center;
+}
+
+
+.conpanyName {
+	width: calc(100vw - 50px);
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 12px;
+	color: #F2F2F2;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	transition: left 0.5s;
+	-moz-transition: left 0.5s;
+	/* Firefox */
+	-webkit-transition: left 0.5s;
+	/* Safari and Chrome */
+	-o-transition: left 0.5s;
+}
+
+
+.loginOtherMain .forgetPwd {
+	width: 100%;
+	height: 30%;
+	font-size: 12px;
+	color: #F2F2F2;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loginOtherMain .loginInto {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 28px;
+	color: #F2F2F2;
+	text-align: center;
+	z-index: 1000;
+}
+
+.loginOtherMain .conpanyName {
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	color: #F2F2F2;
+	text-align: center;
+}
+
+.inputMain input {
+	width: 100%;
+	height: 30px;
+	background-color: rgba(148, 206, 168, 0);
+	border: 0px;
+	font-size: 16px;
+	color: #F2F2F2;
+	border-radius: 0px;
+	font-family: '微软雅黑';
+}
+
+.loginOrActivationParty.activationParty {
+	background-color: rgba(116, 123, 192, 0.898039215686275);
+	padding-left: 50px;
+}
+
+
+.loginOrActivationParty .activationBottom {
+	position: absolute;
+	height: 100%;
+	width: 50px;
+	top: 0px;
+	left: -50px;
+	background-color: rgba(116, 123, 192, 0.898039215686275);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.loginOrActivationParty .activationBottom span {
+	transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	/* IE 9 */
+	-moz-transform: rotate(-90deg);
+	/* Firefox */
+	-webkit-transform: rotate(-90deg);
+	/* Safari 和 Chrome */
+	-o-transform: rotate(-90deg);
+	/* Opera */
+    width: 100px;
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+}
+
+.companyLogo {
+	position: absolute;
+	height: 30%;
+	width: calc(100vw - 50px);
+	top: 0px;
+	left: 0px;
+	transition: left 0.5s;
+	-moz-transition: left 0.5s;
+	/* Firefox */
+	-webkit-transition: left 0.5s;
+	/* Safari and Chrome */
+	-o-transition: left 0.5s;
+	/* Opera */
+	background: url(../img/companyLogo.png) no-repeat center;
+	background-size: 50px;
+    z-index: 1;
+}
+
+.companyLogo .rollBack{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	background: url(../img/rollBack.png) no-repeat center;
+}
+
+/*忘記密碼*/
+
+.forgetPwdMain{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 100%;
+	left: 0px;
+    z-index: 100;
+    background: url(../img/forgetBack.jpg) no-repeat;
+    background-size: cover;
+    transition: top 0.5s;
+	-moz-transition: top 0.5s;
+	/* Firefox */
+	-webkit-transition: top 0.5s;
+	/* Safari and Chrome */
+	-o-transition: top 0.5s;
+	/* Opera */
+}
+
+.forgetPwdMain .close{
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+}
+
+.loginOrActivationParty.forgetPwdParty{
+	padding-right: 0px;
+	background-color: rgba(0, 0, 0, 0.498039215686275);;
+}
+
+.rotate90{
+	
+}
+
+.centerPoint{
+	position: absolute;
+	top: 50%;
+	left: calc(50% - 25px);
+	width: 1px;
+	height: 2px;
+	margin: -1px 0 0 0 -1px;
+	transform: rotate(0deg);
+    z-index: 100;
+	transition: transform 0.5s;
+	-moz-transition: -moz-transform 0.5s;
+	/* Firefox */
+	-webkit-transition: -webkit-transform 0.5s;
+	/* Safari and Chrome */
+	-o-transition: -o-transform 0.5s;
+	/* Opera */
+}
+
+.centerPoint .line{
+	width: 1px;
+	height: 200px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: position 0.5s;
+	-moz-transition: position 0.5s;
+	/* Firefox */
+	-webkit-transition: position 0.5s;
+	/* Safari and Chrome */
+	-o-transition: position 0.5s;
+}
+
+.centerPoint .line span{
+	width: 160px;
+	margin-left: -80px;
+	text-align: center;
+	height: auto;
+	display: inline-block;
+	transition: font-size 0.5s;
+	-moz-transition: font-size 0.5s;
+	/* Firefox */
+	-webkit-transition: font-size 0.5s;
+	/* Safari and Chrome */
+	-o-transition: font-size 0.5s;
+	/* Opera */
+    font-size: 28px;
+    color: #F2F2F2;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.centerPointRegister{
+	position: absolute;
+	top: 50%;
+	left: calc(50% + 25px);
+	width: 1px;
+	height: 2px;
+	margin: -1px 0 0 0 -1px;
+	transform: rotate(90deg);
+    z-index: 100;
+	transition: transform 0.5s;
+	-moz-transition: -moz-transform 0.5s;
+	/* Firefox */
+	-webkit-transition: -webkit-transform 0.5s;
+	/* Safari and Chrome */
+	-o-transition: -o-transform 0.5s;
+	/* Opera */
+}
+
+.centerPointRegister .line{
+	width: 1px;
+	height: 200px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: position 0.5s;
+	-moz-transition: position 0.5s;
+	/* Firefox */
+	-webkit-transition: position 0.5s;
+	/* Safari and Chrome */
+	-o-transition: position 0.5s;
+}
+
+.centerPointRegister .line span{
+	width: 160px;
+	margin-left: -80px;
+	text-align: center;
+	height: auto;
+	display: inline-block;
+	transition: font-size 0.5s;
+	-moz-transition: font-size 0.5s;
+	/* Firefox */
+	-webkit-transition: font-size 0.5s;
+	/* Safari and Chrome */
+	-o-transition: font-size 0.5s;
+	/* Opera */
+    font-size: 12px;
+    color: #F2F2F2;
+    position: absolute;
+    bottom: 0px;
+    transform: rotate(180deg);
+    z-index: 100;
+	transition: transform 0.5s;
+	-moz-transition: -moz-transform 0.5s;
+	/* Firefox */
+	-webkit-transition: -webkit-transform 0.5s;
+	/* Safari and Chrome */
+	-o-transition: -o-transform 0.5s;
+}
+
+
